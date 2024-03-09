@@ -1,0 +1,164 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #0D0E10
+}
+.item{
+    flex: 1 1 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #2C2C34;
+}
+a:active{
+    color: yellow !important;
+}
+.text-name{
+    color: #007ece !important;
+}
+.image-bg{
+    background-color: #fff500;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+}
+:focus {
+    outline: none;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 40px;
+    color: #012E52;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 600;
+    color: #012E52;
+}
+
+p {
+    line-height: 30px;
+}
+
+.f-11 {
+    font-size: 11px;
+}
+
+.f-12 {
+    font-size: 12px;
+}
+
+.f-13 {
+    font-size: 13px;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+.navbar-toggler-icon{
+    background-image: url(../images/humber_icon.svg);
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.bg-primary {
+    background: #373535 !important;
+}
+.offerbg {
+    background: #373535 !important;
+    /* height: 350px;
+    object-fit: contain; */
+}
+.text-primary {
+    color: #373535 !important;
+}
+header .nav-link {
+    font-weight: 500;
+}
+.sec1_bg{
+    background-color: #F1F1F1;
+}
+
+.card-design:hover{
+    border-color: #012E52;
+    /* border:#012E52 3px solid; */
+}
+
+.bg-footer{
+    background-color: #012E52 !important;
+}
+.bg-header{
+  background-color: #000000 !important;
+}
+ul li a{
+    color: #ffffff !important;
+}
+.btn-outline-dark:hover {
+    color: #ffffff;
+    background: #0e314c;
+    transform: translateY(-5px);
+    box-shadow: 0 13px 27px 0 rgb(0 0 0 / 25%);
+}
+
+.btn-outline-dark{
+box-shadow: 0 5px 10px 0 rgb(20 0 20 / 20%);
+background-color: #0e314c;
+color: #ffffff;
+transition: 0.5s;
+}
+
+
+.bg-box{
+    background: url(../images/bg-box.jpg) no-repeat;
+    background-size: cover;
+}
+.bg-course{
+    background: url(../images/bg-courses.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/* 
+  
+  @keyframes scroll1 {
+    0% {
+      transform: translateX(-0%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  @keyframes scroll2 {
+    0% {
+      transform: translateX(0%) translateZ(0);
+    }
+    100% {
+      transform: translateX(-100%) translateZ(0);
+    }
+  }
+   */
+
+
+
+
+
